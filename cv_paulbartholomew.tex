@@ -28,17 +28,19 @@
 %\cvitem{}{{\fontsize{12}{12.5}\selectfont Application for eCSE funding}}
 %\vspace{5mm}
 
-I am a research assistant at Imperial College London, currently working on the eCSE project `An
-adjoint solver for variable-density flows in the low Mach number limit' and previously completed a
-PhD at Imperial College London, working on the development of a fully-coupled solver for the
-two-fluid model of multiphase flows.
-In the course of my research, I have implemented a variable-density solver for Incompact3D and
-pressure-velocity implicit and pressure-velocity-volume fraction implicit solvers for the two-fluid
-model on collocated, unstructured meshes in MultiFlow.
+I am a research assistant at Imperial College London, currently working on the eCSE project `A
+high-order accurate solver for free-surface flows' and previously completed a PhD at Imperial
+College London, working on the development of a fully-coupled solver for the two-fluid model of
+multiphase flows.
+In the course of my research, I have implemented a variable-density solver for Incompact3D as part
+of a previous eCSE project, and am continuing this work to develop free-surface capabilities for the
+Incompact3D software; during my PhD I developed pressure-velocity implicit and
+pressure-velocity-volume fraction implicit solvers for the two-fluid model on collocated,
+unstructured meshes in MultiFlow.
 Additionally, my research interests have covered Momentum Weighted Interpolation and its application
 to multiphase flows, particularly the theoretical basis for, and justification of, its use.
-I have a broad experience of working with parallel, general purpose CFD codes developed in-house
-and have contributed to their development in a range of areas including: IO, automated meshing and
+I have a broad experience of working with parallel, general purpose CFD codes developed in-house and
+have contributed to their development in a range of areas including: IO, automated meshing and
 investigating preconditioners in addition to the implementation of the aforementioned solvers.
 % In addition to my research work I am also responsible for the installation and maintenance of the
 % van Wachem research group's computers.
@@ -51,64 +53,74 @@ investigating preconditioners in addition to the implementation of the aforement
 \section{Education}
 
 \cventry{2013 -- 2017}{PhD in Computational Fluid Dynamics}{Imperial College London}{}{}{
-	Supervisors: B. van Wachem (Imperial College), A. Marquis (Imperial College).}
-\cventry{2009 -- 2013}{MEng. (First class) in Mechanical
-Engineering}{Imperial College London}{}{}{}  % Arguments not required can be left empty
+  Supervisors: B. van Wachem (Imperial College), A. Marquis (Imperial College).}
+\cventry{2009 -- 2013}{MEng. (First class) in Mechanical Engineering}{Imperial College London}{}{}{}
 \cventry{2007 -- 2008}{Advanced Highers}{AAA in Chemistry, Maths and Physics}{}{}{}
-\cventry{2006 -- 2007}{Highers}{AAAA in Chemistry, Maths, Physics and Technical Studies; B in English}{}{}{}
-\cventry{2004 -- 2006}{Standard Grades}{Grade 1 in Art, Chemistry, French,
-Geography, Maths, Physics and Technical Studies; grade 2 in English}{}{}{}
+\cventry{2006 -- 2007}{Highers}{AAAA in Chemistry, Maths, Physics and Technical Studies; B in
+  English}{}{}{}
+\cventry{2004 -- 2006}{Standard Grades}{Grade 1 in Art, Chemistry, French, Geography, Maths, Physics
+  and Technical Studies; grade 2 in English}{}{}{}
 
-\cventry{}{Academic Prizes}{\newline{}3rd year Dean's list, Mechanical
-Engineering\newline{}Senior Proxime Accessit, Bearsden Academy}{}{}{}
+\cventry{}{Academic Prizes}{\newline{}3rd year Dean's list, Mechanical Engineering\newline{}Senior
+  Proxime Accessit, Bearsden Academy}{}{}{}
 
 \section{Professional/research experience}
 
-\cventry{2018 -- 2019}{eCSE 13-03 \textit{A something something}}{}{Imperial College London}{}{
+\cventry{2018 -- 2019}{eCSE 13-03 \textit{A high-order accurate solver for free-surface
+    flows}}{}{Imperial College London}{}{
   Supervisor: S. Laizet, Imperial College London\newline{}
-  Since October 2018 I have been working on
+  Since October 2018 I have been working on developing a free-surface simulation capability in
+  Incompact3D, building upon the variable density solver developed for \textit{eCSE 10-02}.
+  This has entailed implementing high-order interface capturing (\texttt{WENO}) schemes for
+  Incompact3D.
+  During this project we have as a group undertaken a significant rewrite of the Incompact3D
+  software to produce Xcompact3D with the intention of modernising the code base and making it
+  easier to use for non group members.
+  This work has lead to the preparation of a new paper to be submitted for peer-review in the near
+  future.
 }
 \cventry{2017 -- 2018}{eCSE 10-02 \textit{An adjoint solver for variable-density flows in the low Mach
-number limit}}{}{Imperial College London}{}{
-Supervisor: S. Laizet, Imperial College London\newline{}
-This project was focused on the implementation of a Low Mach Number solver in the open-source CFD
-code Incompact3D, available at: \url{https://github.com/ptb0890/Quasincompact3d}.
-In the course of this project I have gained experience programming in Fortran and using
-Tier-0/Tier-1 super computers.
-I have presented intermediate results from the project at the Incompact3D User Group 2018 meeting at
-Imperial college, and will present further results at the UK Fluids Conference 2018 at the
-University of Manchester.
-This work has lead to the publication of a peer-reviewed journal paper (\textit{Bartholomew \&
-  Laizet 2019}).
+    number limit}}{}{Imperial College London}{}{
+  Supervisor: S. Laizet, Imperial College London\newline{}
+  This project was focused on the implementation of a Low Mach Number solver in the open-source CFD
+  code Incompact3D, available at: \url{https://github.com/ptb0890/Quasincompact3d}.
+  In the course of this project I have gained experience programming in Fortran and using
+  Tier-0/Tier-1 super computers.
+  I have presented intermediate results from the project at the Incompact3D User Group 2018 meeting
+  at Imperial college, and will present further results at the UK Fluids Conference 2018 at the
+  University of Manchester.
+  This work has lead to the publication of a peer-reviewed journal paper (\textit{Bartholomew \&
+    Laizet 2019}).
 }
 
 \cventry{2012}{Undergraduate Research Opportunities Programme}{}{Imperial College London}{}{
-Supervisor: A. Marquis, Imperial College London\newline{}
-I obtained funding to join a research group in the Thermofluids division of the
-Mechanical Engineering department at Imperial College for the summer between the
-third and final year of my undergraduate MEng. degree.
-During my project I looked at automating analysis with Paraview using the Python API
-and developed a CFD code based on the SIMPLE algorithm.
+  Supervisor: A. Marquis, Imperial College London\newline{}
+  I obtained funding to join a research group in the Thermofluids division of the Mechanical
+  Engineering department at Imperial College for the summer between the third and final year of my
+  undergraduate MEng. degree.
+  During my project I looked at automating analysis with Paraview using the Python API and developed
+  a CFD code based on the SIMPLE algorithm.
 }
 
 \cventry{2008 -- 2009}{Year In Industry}{BAE Systems}{Glasgow}{}{
-Supervisor: A. McNally \newline{}
-Between finishing high school and starting university I spent a year working in
-the operations department at the BAE Systems shipyard in Scotstoun, Glasgow.
-During my time there I implemented a requisition tracking system to facilitate
-the transfer of materials between projects and assisted in project management
-of the Seagull barge refit for charity.}
+  Supervisor: A. McNally \newline{}
+  Between finishing high school and starting university I spent a year working in the operations
+  department at the BAE Systems shipyard in Scotstoun, Glasgow.
+  During my time there I implemented a requisition tracking system to facilitate the transfer of
+  materials between projects and assisted in project management of the Seagull barge refit for
+  charity.
+}
 
 \section{Publications}
 
 \cventry{}{P. Bartholomew, S. Laizet}{A New Highly Scalable, High-Order Accurate Framework for
-  Variable-Density Flows: Application to Non-Boussinesq Gravity currents in Computer Physics
-  Communications}{2019}{}{}
+  Variable-Density Flows: Application to Non-Boussinesq Gravity Currents in Computer Physics
+  Communications
+}{2019}{}{}
 \cventry{}{P. Bartholomew, F. Denner, M. H. Abdol-Azis, A. Marquis, B. van Wachem}{Unified
   Formulation of the Momentum-Weighted Interpolation for Collocated Variable Arrangements in Journal
-  of Computational Physics}{2018}{}{}
-
-\pagebreak
+  of Computational Physics
+}{2018}{}{}
 
 \section{Conference and seminar presentations}
 
@@ -125,10 +137,9 @@ of the Seagull barge refit for charity.}
   Turbulent Gas-Solid Flows in the Eulerian Framework}{Inaugural UK Fluids
   Conference 2016, 7-9 September 2016}{London, United-Kingdom}{}
 
-\cventry{May 2016}{P. Bartholomew, A. Marquis, F. Denner, B. van
-Wachem}{Development of a Fully Coupled Solver for the Eulerian-Eulerian
-Approach}{9th International Conference on Multiphase Flow (ICMF 2016), 22-27
-May 2016}{Florence, Italy}{}
+\cventry{May 2016}{P. Bartholomew, A. Marquis, F. Denner, B. van Wachem}{Development of a Fully
+  Coupled Solver for the Eulerian-Eulerian Approach}{9th International Conference on Multiphase Flow
+  (ICMF 2016), 22-27 May 2016}{Florence, Italy}{}
 
 \section{Teaching activities}
 
@@ -137,8 +148,8 @@ May 2016}{Florence, Italy}{}
 \vspace{0.3cm}
 \begin{minipage}[t]{0.45\textwidth}
 \section{Computer skills}
-\cvitemwithcomment{Languages}{C, Fortran, MPI, Python, \LaTeX}{}
-\cvitemwithcomment{Software}{Linux, Matlab, Paraview, PETSc}{}
+\cvitemwithcomment{Languages}{C, Fortran, Python, \LaTeX, Matlab}{}
+\cvitemwithcomment{Software}{Linux, MPI, Paraview, PETSc}{}
 \end{minipage}
 \hspace{0.7cm}
 \begin{minipage}[t]{0.45\textwidth}
@@ -165,14 +176,12 @@ May 2016}{Florence, Italy}{}
 % City and Guilds Building, South Kensington Campus, Imperial College London\newline{}020 7594
 % 7030\newline{}b.van-wachem@imperial.ac.uk}{}{}
 \cventry{}{Dr. Sylvain Laizet}{Senior Lecturer}{\newline{}Dept. Aeronautical
-Engineering,\newline{}339, City
-and Guilds Building, South Kensington Campus, Imperial College
-London,\newline{}020 7594 5045\newline{}s.laizet@imperial.ac.uk}{}{}
+  Engineering,\newline{}339, City and Guilds Building, South Kensington Campus, Imperial College
+  London,\newline{}020 7594 5045\newline{}s.laizet@imperial.ac.uk}{}{}
 
 \cventry{}{Dr. Andrew J. Marquis}{Senior Lecturer}{\newline{}Dept. Mechanical
-Engineering,\newline{}527, City and Guilds Building, South Kensington Campus,
-Imperial College London,\newline{}020 7594
-7040\newline{}a.marquis@imperial.ac.uk}{}{}
+  Engineering,\newline{}527, City and Guilds Building, South Kensington Campus, Imperial College
+  London,\newline{}020 7594 7040\newline{}a.marquis@imperial.ac.uk}{}{}
 
 % \cventry{}{Dr. Philippa. Cann}{Principal Research Fellow}{\newline{}Dept. Mechanical
 % Engineering,\newline{}668, City and Guilds Building, South Kensington Campus,
