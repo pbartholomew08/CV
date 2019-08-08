@@ -6,7 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{geometry} % Reduce document margins
 \geometry{a4paper,tmargin=1.2cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=1.5cm,headheight=2.2cm,headsep=0.5cm,footskip=0.5cm}
-%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+\setlength{\hintscolumnwidth}{1.8cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 \renewcommand\familydefault{cmss}
 
@@ -28,22 +28,11 @@
 %\cvitem{}{{\fontsize{12}{12.5}\selectfont Application for eCSE funding}}
 %\vspace{5mm}
 
-I am a research assistant at Imperial College London, currently working on the eCSE project `A
-high-order accurate solver for free-surface flows' and previously completed a PhD at Imperial
-College London, working on the development of a fully-coupled solver for the two-fluid model of
-multiphase flows.
-In the course of my research, I have implemented a variable-density solver for Incompact3D as part
-of a previous eCSE project, and am continuing this work to develop free-surface capabilities for the
-Incompact3D software; during my PhD I developed pressure-velocity implicit and
-pressure-velocity-volume fraction implicit solvers for the two-fluid model on collocated,
-unstructured meshes in MultiFlow.
-Additionally, my research interests have covered Momentum Weighted Interpolation and its application
-to multiphase flows, particularly the theoretical basis for, and justification of, its use.
-I have a broad experience of working with parallel, general purpose CFD codes developed in-house and
-have contributed to their development in a range of areas including: IO, automated meshing and
-investigating preconditioners in addition to the implementation of the aforementioned solvers.
-% In addition to my research work I am also responsible for the installation and maintenance of the
-% van Wachem research group's computers.
+I am a Post-Doctoral Research Associate (PDRA) at Imperial College London with six years' experience
+working with, and developing, Computational Fluid Dynamics software for research.
+In the course of this research I have developed extensive skills working with research software and
+programming in widely used scientific languages including \texttt{C}, \texttt{Fortran} and
+\texttt{Python} and a passion for developing scientific software.
 \\
 
 %----------------------------------------------------------------------------------------
@@ -52,62 +41,74 @@ investigating preconditioners in addition to the implementation of the aforement
 
 \section{Education}
 
-\cventry{2013 -- 2017}{PhD in Computational Fluid Dynamics}{Imperial College London}{}{}{
-  Supervisors: B. van Wachem (Imperial College), A. Marquis (Imperial College).}
-\cventry{2009 -- 2013}{MEng. (First class) in Mechanical Engineering}{Imperial College London}{}{}{}
-\cventry{2007 -- 2008}{Advanced Highers}{AAA in Chemistry, Maths and Physics}{}{}{}
+\cventry{2013 -- 2017}{PhD in Computational Fluid Dynamics}{Department of Mechanical Engineering,
+  Imperial College London}{}{}{
+  \begin{itemize}
+  \item Contributed to the development of a general-purpose CFD research code, implementing a
+    fully-coupled solver for the two-fluid model.
+    \begin{itemize}
+    \item Learned to write \texttt{C} and write software intended for parallel computing
+    \end{itemize}
+  \item Published in international peer-reviewed journal
+  \item Presented work at national and international conferences
+  \item Contributed to teaching of MSc students as a Graduate Teaching Assistant for the CFD course
+  \end{itemize}
+}
+\cventry{2009 -- 2013}{MEng. (First class) in Mechanical Engineering}{Imperial College London}{}{}{
+  \begin{itemize}
+  \item Achieved the 3rd year Dean's list
+  \end{itemize}
+}
+\cventry{2007 -- 2008}{Advanced Highers}{AAA in Chemistry, Maths and Physics}{}{}{
+  \begin{itemize}
+  \item Senior Proxime Accessit, Bearsden Academy
+  \end{itemize}
+}
 \cventry{2006 -- 2007}{Highers}{AAAA in Chemistry, Maths, Physics and Technical Studies; B in
   English}{}{}{}
 \cventry{2004 -- 2006}{Standard Grades}{Grade 1 in Art, Chemistry, French, Geography, Maths, Physics
   and Technical Studies; grade 2 in English}{}{}{}
 
-\cventry{}{Academic Prizes}{\newline{}3rd year Dean's list, Mechanical Engineering\newline{}Senior
-  Proxime Accessit, Bearsden Academy}{}{}{}
-
 \section{Professional/research experience}
 
 \cventry{2018 -- 2019}{eCSE 13-03 \textit{A high-order accurate solver for free-surface
     flows}}{}{Imperial College London}{}{
-  Supervisor: S. Laizet, Imperial College London\newline{}
-  Since October 2018 I have been working on developing a free-surface simulation capability in
-  Incompact3D, building upon the variable density solver developed for \textit{eCSE 10-02}.
-  This has entailed implementing high-order interface capturing (\texttt{WENO}) schemes for
-  Incompact3D.
-  During this project we have as a group undertaken a significant rewrite of the Incompact3D
-  software to produce Xcompact3D with the intention of modernising the code base and making it
-  easier to use for non group members.
-  This work has lead to the preparation of a new paper to be submitted for peer-review in the near
-  future.
+  \begin{itemize}
+  \item Awarded additional funding to continue work of eCSE 10-02 to develop a free-surface solver
+  \item Key contributor to project to modernise \texttt{Incompact3d} codebase
+  \item Presented work at national and international conferences
+  \end{itemize}
 }
 \cventry{2017 -- 2018}{eCSE 10-02 \textit{An adjoint solver for variable-density flows in the low Mach
     number limit}}{}{Imperial College London}{}{
-  Supervisor: S. Laizet, Imperial College London\newline{}
-  This project was focused on the implementation of a Low Mach Number solver in the open-source CFD
-  code Incompact3D, available at: \url{https://github.com/ptb0890/Quasincompact3d}.
-  In the course of this project I have gained experience programming in Fortran and using
-  Tier-0/Tier-1 super computers.
-  I have presented results from the project at the Incompact3D User Group 2018 meeting at Imperial
-  college and at the UK Fluids Conference 2018 at the University of Manchester.
-  This work has lead to the publication of a peer-reviewed journal paper (\textit{Bartholomew \&
-    Laizet 2019}).
+  \begin{itemize}
+  \item Implemented a low Mach number solver in open-source CFD code \texttt{Incompact3d}
+    \begin{itemize}
+    \item Learned to write \texttt{Fortran}
+    \item Gained experience working with Tier-1/0 super computers
+    \end{itemize}
+    \item Presented work at national conferences
+    \item Published in international peer-reviewed journal
+  \end{itemize}
 }
 
 \cventry{2012}{Undergraduate Research Opportunities Programme}{}{Imperial College London}{}{
-  Supervisor: A. Marquis, Imperial College London\newline{}
-  I obtained funding to join a research group in the Thermofluids division of the Mechanical
-  Engineering department at Imperial College for the summer between the third and final year of my
-  undergraduate MEng. degree.
-  During my project I looked at automating analysis with Paraview using the Python API and developed
-  a CFD code based on the SIMPLE algorithm.
+  \begin{itemize}
+  \item Won funding to join a research group in the Thermofluids division of the Mechanical
+    Engineering department at Imperial College for the summer between the third and final year of my
+    undergraduate MEng. degree.
+  \item Gained experience working with Paraview
+  \item Developed simple CFD code in Python
+  \end{itemize}
 }
 
 \cventry{2008 -- 2009}{Year In Industry}{BAE Systems}{Glasgow}{}{
-  Supervisor: A. McNally \newline{}
-  Between finishing high school and starting university I spent a year working in the operations
-  department at the BAE Systems shipyard in Scotstoun, Glasgow.
-  During my time there I implemented a requisition tracking system to facilitate the transfer of
-  materials between projects and assisted in project management of the Seagull barge refit for
-  charity.
+  \begin{itemize}
+  \item Worked in the operations department at the Scotstoun shipyard
+  \item Implemented a requisition tracking system to facilitate transfer of materials between
+    projects
+  \item Assisted in project management of the charity project to refit the Seagull barge
+  \end{itemize}
 }
 
 \section{Publications}
@@ -121,65 +122,114 @@ investigating preconditioners in addition to the implementation of the aforement
   of Computational Physics
 }{2018}{}{}
 
-\section{Conference and seminar presentations}
+\pagebreak
 
-\cventry{May 2019}{P. Bartholomew, G. Deskos, S. Laizet}{Xcompact3d: A Powerful Framework to Study
-  Turbulent Flows with Turbulence-Resolving Simulations}{EuroHPC, 13-17 May 2019}{Pozna\'{n},
-  Poland}{}
-\cventry{Apr 2019}{P. Bartholomew, S. Laizet}{Modernising and expanding the capabilities of the
-  high-order flow solver Incompact3d (Poster)}{Numerical Algorithms for High-Performance
-  Computational Science, 8-9 February 2019}{London, United-Kingdom}{}
-\cventry{Feb 2019}{P. Bartholomew, S. Laizet}{Modernising and expanding the capabilities of the
-  high-order flow solver Incompact3d (Poster)}{RSLondonSouthEast Workshop 2019, 7 February
-  2019}{London, United-Kingdom}{}
-\cventry{Sep 2018}{P. Bartholomew, S. Laizet}{QuasIncompact3D: A Highly Scaleable Solver for Navier
-  Stokes in the Low Mach Number Limit}{UK Fluids Conference, 4-6 September 2018}{Manchester,
-  United-Kingdom}{}
-\cventry{Apr 2018}{P. Bartholomew, S. Laizet}{Simulations of Variable-Density Flows in the Low Mach
-  Number Limit}{Incompact3D User Group Meeting 2018, April
-  2018}{London, United-Kingdom}{}
-\cventry{Sep 2016}{P. Bartholomew, A. Marquis, B. van Wachem}{Modelling of
-  Turbulent Gas-Solid Flows in the Eulerian Framework}{Inaugural UK Fluids
-  Conference 2016, 7-9 September 2016}{London, United-Kingdom}{}
+\section{Skills and interests}
 
-\cventry{May 2016}{P. Bartholomew, A. Marquis, F. Denner, B. van Wachem}{Development of a Fully
-  Coupled Solver for the Eulerian-Eulerian Approach}{9th International Conference on Multiphase Flow
-  (ICMF 2016), 22-27 May 2016}{Florence, Italy}{}
+\cventry{}{Technical knowledge}{}{}{}{
+  I have a very strong background in numerical software, particularly CFD, having worked with and
+  extended two research codes each using different numerical methods.
+  This experience allows me to not only contribute to the development of new software, but also to
+  effectively troubleshoot problems.
+  It has also guided me to identify areas where improvements can be made, for example when I decided
+  to collaborate with another PDRA to produce a post-processing library from scripts we had
+  developed independently: encouraging code-reuse and is already contributing to the work of others
+  in the research group.\\
+}
+\cventry{}{Computer programming and skills}{}{}{}{
+  I have successfully developed software in several of the major languages used in computational
+  science including \texttt{C}, \texttt{Fortran} and \texttt{Python} and have experience using
+  \texttt{MATLAB}/\texttt{Octave}.
+  Much of my experience programming has been for distributed systems and I have a good knowledge of
+  \texttt{MPI} and the \texttt{PETSc} library.
+  I am familiar with Linux, having used it extensively throughout my research career including
+  assisting with the administration of the group's workstations during my PhD and having used
+  multiple HPC systems.\\
+}
+\cventry{}{Communication skills}{}{}{}{
+  As a PDRA and PhD student I have developed strong presentation skills, presenting my work to both
+  specialist and non-specialist audiences at several conferences including RSE London South East and
+  EuroHPC 2019.
+  In addition, working as a Graduate Teaching Assistant during my PhD required being able to explain
+  concepts clearly to students during tutorial sessions.
+  I have been able to combine these skills with my knowledge of software development practices to
+  produce a short introduction to git to present to PhD students in the group.\\
+  \linebreak
+  In addition to my thesis, I have published my work in peer-reviewed journals, developing precise
+  and clear writing skills in the process.
+  I have also been able to employ these skills in software development and day-to-day research,
+  having read about literate programming I think it has great potential for scientific software and
+  have used it to produce reports with integrated post-processing code that my supervisor was very
+  pleased with and am exploring its use to develop a new module for our codebase.
+  Furthermore, I will be presenting results from this effort to the wider research software
+  engineering community at the RSE2019 conference in Birmingham.\\
+}
+\cventry{}{Teamwork and collaboration}{}{}{}{
+  During both my PhD and PDRA positions I have worked as part of a research group using a common
+  software for research, working effectively as part of a team has thus been vital.
+  With multiple people collaborating on a single codebase I have also become proficient in both svn
+  and git, finding these skills valuable also when working independently.\\
+}
+\cventry{}{Personal interests}{}{}{}{
+  I play squash and badminton and cycle both to commute and recreationally.
+  I also enjoy playing guitar and have played in several bands.
+}
 
-\section{Teaching activities}
+% \section{Conference and seminar presentations}
 
-\cventry{2015-2017}{CDT - Computational Fluid Dynamics}{Teaching assistant}{Imperial College London}{}{}
+% \cventry{May 2019}{P. Bartholomew, G. Deskos, S. Laizet}{Xcompact3d: A Powerful Framework to Study
+%   Turbulent Flows with Turbulence-Resolving Simulations}{EuroHPC, 13-17 May 2019}{Pozna\'{n},
+%   Poland}{}
+% \cventry{Apr 2019}{P. Bartholomew, S. Laizet}{Modernising and expanding the capabilities of the
+%   high-order flow solver Incompact3d (Poster)}{Numerical Algorithms for High-Performance
+%   Computational Science, 8-9 February 2019}{London, United-Kingdom}{}
+% \cventry{Feb 2019}{P. Bartholomew, S. Laizet}{Modernising and expanding the capabilities of the
+%   high-order flow solver Incompact3d (Poster)}{RSLondonSouthEast Workshop 2019, 7 February
+%   2019}{London, United-Kingdom}{}
+% \cventry{Sep 2018}{P. Bartholomew, S. Laizet}{QuasIncompact3D: A Highly Scaleable Solver for Navier
+%   Stokes in the Low Mach Number Limit}{UK Fluids Conference, 4-6 September 2018}{Manchester,
+%   United-Kingdom}{}
+% \cventry{Apr 2018}{P. Bartholomew, S. Laizet}{Simulations of Variable-Density Flows in the Low Mach
+%   Number Limit}{Incompact3D User Group Meeting 2018, April
+%   2018}{London, United-Kingdom}{}
+% \cventry{Sep 2016}{P. Bartholomew, A. Marquis, B. van Wachem}{Modelling of
+%   Turbulent Gas-Solid Flows in the Eulerian Framework}{Inaugural UK Fluids
+%   Conference 2016, 7-9 September 2016}{London, United-Kingdom}{}
 
-\vspace{0.3cm}
-\begin{minipage}[t]{0.45\textwidth}
-\section{Computer skills}
-\cvitemwithcomment{Languages}{C, Fortran, Python, \LaTeX, Matlab}{}
-\cvitemwithcomment{Software}{Linux, MPI, Paraview, PETSc}{}
-\end{minipage}
-\hspace{0.7cm}
-\begin{minipage}[t]{0.45\textwidth}
-\setlength{\hintscolumnwidth}{3.4cm} 
-\setlength{\hintscolumnwidth}{3cm} 
-\end{minipage}
+% \cventry{May 2016}{P. Bartholomew, A. Marquis, F. Denner, B. van Wachem}{Development of a Fully
+%   Coupled Solver for the Eulerian-Eulerian Approach}{9th International Conference on Multiphase Flow
+%   (ICMF 2016), 22-27 May 2016}{Florence, Italy}{}
 
-%----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
-%----------------------------------------------------------------------------------------
+% \section{Teaching activities}
 
-\section{Interests}
+% \cventry{2015-2017}{CDT - Computational Fluid Dynamics}{Teaching assistant}{Imperial College London}{}{}
 
-\renewcommand{\listitemsymbol}{$\bullet$~} % Changes the symbol used for lists
+% \vspace{0.3cm}
+% \begin{minipage}[t]{0.45\textwidth}
+% \section{Computer skills}
+% \cvitemwithcomment{Languages}{C, Fortran, Python, \LaTeX, Matlab}{}
+% \cvitemwithcomment{Software}{Linux, MPI, Paraview, PETSc}{}
+% \end{minipage}
+% \hspace{0.7cm}
+% \begin{minipage}[t]{0.45\textwidth}
+% \setlength{\hintscolumnwidth}{3.4cm} 
+% \setlength{\hintscolumnwidth}{3cm} 
+% \end{minipage}
 
-% \cvitemwithcomment{Sports}{Running, Coaching, Rowing}{}
-\cvitemwithcomment{Sports}{Cycling, Badminton, Squash}{}
-\cvitemwithcomment{Hobbies}{Guitar}{}
+% %----------------------------------------------------------------------------------------
+% %	INTERESTS SECTION
+% % ----------------------------------------------------------------------------------------
+
+% \section{Interests}
+
+% \renewcommand{\listitemsymbol}{$\bullet$~} % Changes the symbol used for lists
+
+% % \cvitemwithcomment{Sports}{Running, Coaching, Rowing}{}
+% \cvitemwithcomment{Sports}{Cycling, Badminton, Squash}{}
+% \cvitemwithcomment{Hobbies}{Guitar}{}
 
 \section{Referees}
 
-% \cventry{}{Prof. Berend van Wachem}{Professor of Multiphase Flow
-% Modelling}{\newline{}Dept. Mechanical Engineering,\newline{}622,
-% City and Guilds Building, South Kensington Campus, Imperial College London\newline{}020 7594
-% 7030\newline{}b.van-wachem@imperial.ac.uk}{}{}
 \cventry{}{Dr. Sylvain Laizet}{Senior Lecturer}{\newline{}Dept. Aeronautical
   Engineering,\newline{}339, City and Guilds Building, South Kensington Campus, Imperial College
   London,\newline{}020 7594 5045\newline{}s.laizet@imperial.ac.uk}{}{}
@@ -192,63 +242,6 @@ investigating preconditioners in addition to the implementation of the aforement
 % Engineering,\newline{}668, City and Guilds Building, South Kensington Campus,
 % Imperial College London,\newline{}020 7594
 % 7027\newline{}p.cann@imperial.ac.uk}{}{}
-
-
-%----------------------------------------------------------------------------------------
-%	COVER LETTER
-%----------------------------------------------------------------------------------------
-
-%\clearpage
-%\recipient{Dr. Laizet, Department of Aeronautics}{Imperial College London} % Letter recipient
-%\date{\today} % Letter date
-%\opening{Dear Dr. Laizet,} % Opening greeting
-%\closing{Yours faithfully,} % Closing phrase
-%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
-%\extrainfo{}
-%\makelettertitle % Print letter title
-%
-%\begin{minipage}{\textwidth}
-%Please find enclosed my CV in application for the position of Research Assistant in An adjoint solver for variable-density flows in the low Mach number limit at the Department of Aeronautics.\\
-%
-%I am currently finishing a PhD in computational fluid dynamics (CFD) under the
-%supervision of Prof. van Wachem and Dr. Marquis at the Department of Mechanical
-%Engineering, Imperial College London.
-%Prior to starting my PhD, I graduated from the MEng. programme in mechanical engineering at Imperial College London.
-%During my undergraduate studies, I undertook courses in Computational Fluid
-%Dynamics and Finite Element Analysis in addition to the further maths and fluid
-%dynamics courses amongst others.
-%In my final year project, I impelemented a code to solve the two-fluid model,
-%supervised by Dr. Marquis, sparking an interest which directed me to pursue the
-%PhD project I am currently undertaking.\\
-%
-%My PhD project focuses on the development of an implicit framework for the
-%two-fluid model with the aim of enhanced stability for simulating complex
-%gas-solid flows.
-%I have implemented this in the in-house CFD code \texttt{MultiFlow}, a `coupled
-%balanced-force numerical framework for single- and multi-phase flows at all
-%speed on unstructured meshes', written in C and interfacing with the PETSc
-%library.
-%This has given me a broad experience of working with a complex, parallel code
-%base and I have had the opportunity to work on a range of features in the code,
-%becoming a major contributor to the code.
-%
-%
-%
-%The PhD project I have since been part of focuses on the development of
-%numerical methods for interfacial two-phase flows, with the objective
-%of making the accurate modelling of multi-scale interfacial flows in
-%complex geometries feasible.
-%	To that end, I have contributed to the development of the in-house CFD code \texttt{MultiFlow}, a `coupled balanced-force numerical framework for single- and multi-phase flows at all speeds on unstructured meshes' written in C and using the MPI library for its parallelisation. Having been involved in the making of \texttt{MultiFlow} since its early-days, I have been one its main contributors with 66,000 lines of code written, out of the 285,000 lines the code is made of (to this date). This 4-year long immersion into the development of a parallel CFD code gave me an unvaluable opportunity to touch upon the various specificities of such programmes. Alongside my involvement on the general features of \texttt{MultiFlow}, my research has focused on the developement of numerical methods for interfacial two-phase flows, and has so-far lead to one publication in a peer-reviewed journal -- with three additional papers being currently under review -- as well as eight presentations at international conferences. My involvement in the department also includes teaching assistant roles in the 2nd year mathematics and 4th year CFD courses, and the co-supervision of an MSc thesis.\\
-%
-%I believe that my experience with computational fluid dynamics and my awareness on environmental fluid dynamics and turbulence have prepared me for the position you are offering. I am a hard working and passionate researcher, eager to learn but also to share my knowledge. I am fully aware of the commitment that a position at your renowned institution requires, and I want to assure you that I am ready to throw myself entirely into it.\\
-%%
-%%Please do not hesitate to contact me should you need any additional information; I am looking forward to hearing from you.\\
-%
-%\end{minipage}
-%
-%\makeletterclosing % Print letter signature
-%%----------------------------------------------------------------------------------------
-
 
 \end{document}
 
